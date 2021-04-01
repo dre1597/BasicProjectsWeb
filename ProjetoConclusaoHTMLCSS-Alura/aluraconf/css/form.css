@@ -1,0 +1,42 @@
+.panel-form .title{
+    text-transform: uppercase;
+    color: #F17E50;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.panel-form .btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 25px 50px;
+    background-color: #50A3A7;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.panel-form .field {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.panel-form .field-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.panel-form .field-input {
+    display: block;
+    width: 90%;
+    font-size: 1.25em;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #50A3A7;
+}
+
+.panel-form .button-place {
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+}

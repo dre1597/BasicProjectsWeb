@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 id="title">Nutrition</h1>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Patients</h2>
+            <label for="search">Search</label>
+            <input type="text" name="search" id="search">
+            <table id="patients-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Weight(kg)</th>
+                        <th>Height(m)</th>
+                        <th>Body fat(%)</th>
+                        <th>BMI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="patient">
+                        <td class="info-name">Paulo</td>
+                        <td class="info-weight">100</td>
+                        <td class="info-height">2.00</td>
+                        <td class="info-fat">10</td>
+                        <td class="info-bmi">0</td>
+                    </tr>
+                    <tr class="patient">
+                        <td class="info-name">João</td>
+                        <td class="info-weight">80</td>
+                        <td class="info-height">1.72</td>
+                        <td class="info-fat">40</td>
+                        <td class="info-bmi">0</td>
+                    </tr>
+                    <tr class="patient">
+                        <td class="info-name">Erica</td>
+                        <td class="info-weight">54</td>
+                        <td class="info-height">1.64</td>
+                        <td class="info-fat">15</td>
+                        <td class="info-bmi">0</td>
+                    </tr>
+                    <tr class="patient">
+                        <td class="info-name">Douglas</td>
+                        <td class="info-weight">85</td>
+                        <td class="info-height">1.73</td>
+                        <td class="info-fat">25</td>
+                        <td class="info-bmi">0</td>
+                    </tr>
+                    <tr class="patient">
+                        <td class="info-name">Tatiana</td>
+                        <td class="info-weight">46</td>
+                        <td class="info-height">1.55</td>
+                        <td class="info-fat">19</td>
+                        <td class="info-bmi">0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="import-patient" class="btn main-btn">Import</button>
+        </section>
+        <!-- ... -->
+        <section class="container">
+            <h2 id="form-title">Add new patient</h2>
+            <ul id="error-menssage"></ul>
+            <form class="form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input id="name" name="name" type="text" class="field" required>
+                </div>
+                <div class="group">
+                    <label for="weight">Weight:</label>
+                    <input id="weight" name="weight" type="text" class="field middle-field" required>
+                </div>
+                <div class="group">
+                    <label for="height">Height:</label>
+                    <input id="height" name="height" type="text" class="field middle-field" required>
+                </div>
+                <div class="group">
+                    <label for="fat">% of fat:</label>
+                    <input id="fat" name="fat" type="text" class="field middle-field" required>
+                </div>
+
+                <button id="add-patient" class="btn main-btn">Add</button>
+            </form>
+        </section>
+    </main>
+    <script src="./js/bmi.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/delete.js"></script>
+    <script src="./js/filter.js"></script>
+    <script src="./js/importPatients.js"></script>
+</body>
+
+</html>

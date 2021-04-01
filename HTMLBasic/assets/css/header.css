@@ -1,0 +1,38 @@
+.header{
+    background-color: var(--color-light);
+    display: block;
+    padding: 30px 10%;
+}
+
+.header header__nav {
+    text-align: center;
+}
+
+
+.header__nav--item {  
+    padding: 0px 20px; 
+}
+
+.header__nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+@media screen and (min-width: 500px){
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__nav--list {
+        display: flex;
+    }
+
+    .header__nav a {
+        font-size: 1.5em;
+    }
+}

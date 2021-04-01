@@ -1,0 +1,57 @@
+@import url(style.css);
+
+.main__title--img {
+    width: 100%;
+}
+
+.main__first-section {
+    padding: 30px;
+}
+
+.main__subtitle, .main__paragraph {
+    text-align: center;
+}
+
+.main__secundary-section {
+    padding: 20px;
+}
+
+.main__half-screen {
+    padding-left: 5%;
+}
+
+.main__secundary-section--list {
+    list-style-type: disc;
+}
+
+.main__secundary-section--img {
+    margin-top: 30px;
+    width: 80vw;
+}
+
+.main__secundary-section--items {
+    font-style: italic;
+}
+
+.main__secundary-section--info a {
+    color: var(--color-quaternary);
+    text-decoration: none;
+}
+
+.main__secundary-section--info a:hover {
+    color: var(--color-tertiary);
+}
+
+@media screen and (min-width: 500px){
+
+    .main__secundary-section--list {
+        display: inline-block;
+        vertical-align: top;
+        width: 40%;
+        padding-top: 5%;
+    }
+    
+    .main__secundary-section--img {
+        width: 50%;
+    }
+}
