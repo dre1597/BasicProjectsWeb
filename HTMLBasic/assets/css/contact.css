@@ -1,63 +1,81 @@
-@import url(_base.css);
-@import url(style.css);
-
-main {
-    width: 940px;
-    margin: 0 auto;
+.container {
+    width: 90%;
+    margin: 20px auto;
 }
 
-form {
-    margin: 40px 0;
-}
-
-form label, form legend {
+.form__label, .form__legend {
     display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
+    font-size: 2em;
+    margin: 10px 0 10px 20px;
 }
 
-.default-input {
+.form__input {
     display: block;
-    margin: 0 0 20px;
+    margin: 0 20px 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 80%;
 }
 
-.checkbox{
-    margin: 20px 0;
+.form__select{
+    margin-left: 20px;
+    width: 180px;
+    font-size: 2em;
+    background-color: var(--color-light);
 }
 
-.btn {
-    width: 40%;
-    padding: 15px 0;
+.form__option{
+    background-color: var(--color-light);
+}
+
+.contact__legend--paragraphy {
+    text-transform: capitalize;
+    font-size: 3em;
+}
+
+.form__checkbox {
+    font-size: 2em;
+    margin: 20px 0 20px 20px;
+}
+
+.form__btn {
+    display: block;
+    margin-left: 20px;
     background-color: var(--color-tertiary);
-    font-size: 18px;
+    font-size: 20px;
+    padding: 20px;
+    width: 80%;
     border: none;
     border-radius: 5px;
     transition: 1s background;
     cursor: pointer;
 }
 
-.btn:hover {
-    background: var(--color-primary)
+.form__btn:hover {
+    background: var(--color-primary);
 }
 
-p{
+.contact__table{
+    margin-left: 20px;
+}
+
+.contact__table--paragraphy {
+    margin-left: 20px;
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 3em;
 }
 
-table {
-    margin: 20px 0 40px;
-}
-
-thead {
+.contact__table--head {
     background: var(--color-light);
     color: var(--color-black);
     font-weight: bold;
 }
 
-th, td {
+.contact__table--data {
     border: 1px solid var(--color-light);
     padding: 8px 15px;
+    font-size: 2em;
+}
+
+@media screen and (min-width: 500px) {
+
 }

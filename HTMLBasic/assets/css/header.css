@@ -2,12 +2,12 @@
     background-color: var(--color-light);
     display: block;
     padding: 30px 10%;
-}
-
-.header header__nav {
     text-align: center;
 }
 
+.header .header__nav {
+    text-align: center;
+}
 
 .header__nav--item {  
     padding: 0px 20px; 
@@ -26,6 +26,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 300px;
+        font-size: 1.5em;
+    }
+
+    .header__logo {
+        width: 250px;
     }
 
     .header__nav--list {
