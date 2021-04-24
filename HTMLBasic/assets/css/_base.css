@@ -1,41 +1,18 @@
 @import url(_reset.css);
-/*
-----------------
-Fonts
-----------------
-*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
-/*
-----------------
-Variables
-----------------
-*/
 
 :root {
-    /* colors */
     --color-1: #2A4158;
     --color-2: #2A4158;
     --color-3: #556779;
     --color-4: #7F8D9B;
     --color-light: #AAB3BC;
     --color-black: #111A23;
-
-    /* font family */
     --ff-primary: "Montserrat", sans-serif;
     --ff-secondary: "Nunito Sans", sans-serif;
-
-    /* others */
-    --spacing: 0.1rem;
-    --radius: 0.25rem;
-    --transition: all 0.3s linear;
 }
-
-/*
-----------------
-Mini-reset
-----------------
-*/
 
 *,
 ::after,
@@ -52,12 +29,6 @@ ul {
 a {
     text-decoration: none;
 }
-
-/*
-----------------
-Global
-----------------
-*/
 
 body {
     font-family: var(--ff-secondary);

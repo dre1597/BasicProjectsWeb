@@ -33,52 +33,44 @@
     <main>
         <section class="container">
             <form>
-                <fieldset>
+                <fieldset class="fieldset__input">
                     <label class="form__label" for="name">Name</label>
                     <input class="form__input" type="text" id="name" required>
 
-                    <label class="form__label"  for="email">Email</label>
+                    <label class="form__label" for="email">Email</label>
                     <input class="form__input" type="email" id="email" required>
 
-                    <label class="form__label"  for="phone">Phone</label>
+                    <label class="form__label" for="phone">Phone</label>
                     <input class="form__input" type="tel" id="phone" required>
 
-                    <label class="form__label"  for="menssage">Menssage</label>
-                    <textarea class="form__input" cols="30" rows="10" id="menssage" required></textarea>
+                    <label class="form__label" for="message">Message</label>
+                    <textarea class="form__input" cols="30" rows="4" id="message" required></textarea>
                 </fieldset>
-
-
-                <fieldset>
+                <fieldset class="fieldset__radio">
                     <legend class="form__legend">How do you prefer our contact?</legend>
-                    <label class="form__label" for="radio-email"> <input type="radio" name="contact" value="email" id="radio-email">
+                    <label class="form__label" for="radio-email"> <input type="radio" name="contact" value="email"
+                            id="radio-email">
                         Email</label>
-
-                    <label class="form__label" for="radio-phone"> <input type="radio" name="contact" value="phone" id="radio-phone">
+                    <label class="form__label" for="radio-phone"> <input type="radio" name="contact" value="phone"
+                            id="radio-phone">
                         Phone</label>
-
-                    <label class="form__label" for="radio-telegram"> <input type="radio" name="contact" value="telegram" id="radio-telegram"
-                            checked> Telegram</label>
-
+                    <label class="form__label" for="radio-telegram"> <input type="radio" name="contact" value="telegram"
+                            id="radio-telegram" checked> Telegram</label>
                 </fieldset>
                 <fieldset>
                     <legend class="form__legend">What time do you prefer?</legend>
                     <select class="form__select">
-                        <option class="form__option">Morning</option>
-                        <option class="form__option">Afternoon</option>
-                        <option class="form__option">Night</option>
+                        <option>Morning</option>
+                        <option>Afternoon</option>
+                        <option>Night</option>
                     </select>
                 </fieldset>
-
                 <fieldset class="form__checkbox">
-                    <label for=""><input type="checkbox" checked> Do you want to receive our newsletter?</label>
+                    <label class="form__label" for="checkbox"><input type="checkbox" id="checkbox" checked> Do you want to receive our newsletter?</label>
                 </fieldset>
-
                 <input class="form__btn" type="submit" value="Submit">
-
             </form>
-            
         </section>
-
         <section class="container">
             <p class="contact__table--paragraphy">opening hours</p>
             <table class="contact__table">
@@ -111,6 +103,8 @@
         <img src="./assets/img/logo2.svg" alt="logo">
         <p class="footer__copyright">&copy; Copyright Lorem Ipsum - 2021</p>
     </footer>
+    <script src="./assets/js/toggle.js"></script>
+    <script src="https://kit.fontawesome.com/8db75cb122.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
