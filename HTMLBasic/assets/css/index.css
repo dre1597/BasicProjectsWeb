@@ -22,20 +22,22 @@
     text-align: center;
     font-size: 1.25rem;
 }
-
 .half-container {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+.main__secundary-section-list {
+    font-size: 1.5rem;
+    list-style-type: disc;
 }
 
-.main__secundary-section-list {
-    list-style-type: disc;
-    font-size: 1.5rem;
+.main__secundary-items::before {
+    content: disc;
 }
 
 .main__secundary-img {
-    width: 40vw;
+    display: none;
 }
 
 .main__info {
@@ -46,4 +48,15 @@
 
 .main__info:hover {
     color: var(--color-2);
+}
+
+@media screen and (min-width: 800px) {
+    .half-container {
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .main__secundary-img {
+        display: block;
+        width: 40vw;
+    }
 }
