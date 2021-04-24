@@ -5,6 +5,6 @@
 
 .footer__copyright {
 	color: var(--color-black);
-	font-size: 13px;
-	padding-bottom: 20px;
+	font-size: 1rem;
+	padding-bottom: 1rem;
 }
