@@ -20,7 +20,7 @@ header h1, header h2 {
     vertical-align: middle;
 }
 
-header .container:before {
+header .container::before {
     content: '';
     display: inline-block;
     height: 100%;
@@ -83,13 +83,13 @@ label {
     padding-right: .5em;
 }
 
-.group{
+.group {
 	width: 32%;
 	display: inline-block;
 	padding: 10px 0px;
 }
 
-button{
+button {
 	padding: .5em 2em;
 	border: 0;
 	border-bottom: 3px solid;
@@ -107,7 +107,7 @@ button{
 
 }
 
-button:active{
+button:active {
 	margin-top:0px;
 	border: 0;
 }
@@ -118,7 +118,7 @@ button[disabled=disabled], button:disabled {
 
 }
 
-#add-patient{
+#add-patient {
     margin-top: 30px;
 }
 
@@ -130,7 +130,7 @@ button[disabled=disabled], button:disabled {
     color: red;
 }
 
-.fade-out{
+.fade-out {
     opacity: 0;
     transition: 0.5s;
 }
