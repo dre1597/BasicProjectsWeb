@@ -14,12 +14,12 @@ Variables
 
 :root {
     /* colors */
-    --color-primary: #473951;
-    --color-secondary: #6c577b;
-    --color-tertiary: #9175a6;
-    --color-quaternary: #b793d0;
-    --color-light: #dcb1fb;
-    --color-black: #221b26;
+    --color-1: #2A4158;
+    --color-2: #2A4158;
+    --color-3: #556779;
+    --color-4: #7F8D9B;
+    --color-light: #AAB3BC;
+    --color-black: #111A23;
 
     /* font family */
     --ff-primary: "Montserrat", sans-serif;
@@ -64,65 +64,5 @@ body {
     background: var(--color-black);
     color: var(--color-light);
     line-height: 1.5;
-    font-size: 0.75rem;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    letter-spacing: var(--spacing);
-    text-transform: capitalize;
-    line-height: 1.25;
-    margin-bottom: 1rem;
-    font-family: var(--ff-primary);
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.25rem;
-}
-h4 {
-    font-size: 0.875rem;
-}
-
-p {
-    margin-bottom: 1.25rem;
-    color: var(--color-light);
-}
-
-@media screen and (min-width: 800px) {
-
-    body{
-        font-size: 1rem;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4 {
-        line-height: 1;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-    
-    h2 {
-        font-size: 2.5rem;
-    }
-    
-    h3 {
-        font-size: 1.75rem;
-    }
-    h4 {
-        font-size: 1rem;
-    }
+    font-size: 1rem;
 }
