@@ -1,2 +1,2 @@
 # BasicProjectsWeb
-Repository for my basic projects of HTML/CSS/JS.
+Repository for basic projects of HTML/CSS/JS from Alura.
