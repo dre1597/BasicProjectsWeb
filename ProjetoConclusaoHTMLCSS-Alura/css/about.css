@@ -1,19 +1,19 @@
 .panel-about {
-    margin-top: 2em;
-    text-align: center;
+  margin-top: 2em;
+  text-align: center;
 }
 
 .panel-about .title {
-    font-size: 3em;
-    margin-bottom: 1em;
+  font-size: 3em;
+  margin-bottom: 1em;
 }
 
 .panel-about .subtitle {
-    font-size: 2em;
-    margin-bottom: 1em;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 .panel-about .about-description {
-    font-size: 1.5em;
-    line-height: 2em;
+  font-size: 1.5em;
+  line-height: 2em;
 }
