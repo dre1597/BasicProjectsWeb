@@ -4,36 +4,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
 :root {
-    --color-1: #2A4158;
-    --color-2: #2A4158;
-    --color-3: #556779;
-    --color-4: #7F8D9B;
-    --color-light: #AAB3BC;
-    --color-black: #111A23;
-    --ff-primary: "Montserrat", sans-serif;
-    --ff-secondary: "Nunito Sans", sans-serif;
+  --color-1: #2a4158;
+  --color-2: #2a4158;
+  --color-3: #556779;
+  --color-4: #7f8d9b;
+  --color-light: #aab3bc;
+  --color-black: #111a23;
+  --ff-primary: 'Montserrat', sans-serif;
+  --ff-secondary: 'Nunito Sans', sans-serif;
 }
 
 *,
 ::after,
 ::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-    font-family: var(--ff-secondary);
-    background: var(--color-black);
-    color: var(--color-light);
-    line-height: 1.5;
-    font-size: 1rem;
+  font-family: var(--ff-secondary);
+  background: var(--color-black);
+  color: var(--color-light);
+  line-height: 1.5;
+  font-size: 1rem;
 }

@@ -2,109 +2,114 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/contact.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="nav__center">
-                <div class="nav__header">
-                    <img class="nav__logo" src="./assets/img/logo2.svg" alt="logo">
-                    <button class="nav__toggle">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
-                <div class="nav__links-container">
-                    <ul class="nav__links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="container">
-            <form>
-                <fieldset class="fieldset__input">
-                    <label class="form__label" for="name">Name</label>
-                    <input class="form__input" type="text" id="name" required>
+  <header>
+    <nav>
+      <div class="nav__center">
+        <div class="nav__header">
+          <img class="nav__logo" src="./assets/img/logo2.svg" alt="logo" />
+          <button class="nav__toggle">
+            <em class="fas fa-bars"></em>
+          </button>
+        </div>
+        <div class="nav__links-container">
+          <ul class="nav__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="container">
+      <form>
+        <fieldset class="fieldset__input">
+          <legend></legend>
+          <label class="form__label" for="name">Name</label>
+          <input class="form__input" type="text" id="name" required />
 
-                    <label class="form__label" for="email">Email</label>
-                    <input class="form__input" type="email" id="email" required>
+          <label class="form__label" for="email">Email</label>
+          <input class="form__input" type="email" id="email" required />
 
-                    <label class="form__label" for="phone">Phone</label>
-                    <input class="form__input" type="tel" id="phone" required>
+          <label class="form__label" for="phone">Phone</label>
+          <input class="form__input" type="tel" id="phone" required />
 
-                    <label class="form__label" for="message">Message</label>
-                    <textarea class="form__input" cols="30" rows="4" id="message" required></textarea>
-                </fieldset>
-                <fieldset class="fieldset__radio">
-                    <legend class="form__legend">How do you prefer our contact?</legend>
-                    <label class="form__label" for="radio-email"> <input type="radio" name="contact" value="email"
-                            id="radio-email">
-                        Email</label>
-                    <label class="form__label" for="radio-phone"> <input type="radio" name="contact" value="phone"
-                            id="radio-phone">
-                        Phone</label>
-                    <label class="form__label" for="radio-telegram"> <input type="radio" name="contact" value="telegram"
-                            id="radio-telegram" checked> Telegram</label>
-                </fieldset>
-                <fieldset>
-                    <legend class="form__legend">What time do you prefer?</legend>
-                    <select class="form__select">
-                        <option>Morning</option>
-                        <option>Afternoon</option>
-                        <option>Night</option>
-                    </select>
-                </fieldset>
-                <fieldset class="form__checkbox">
-                    <label class="form__label" for="checkbox"><input type="checkbox" id="checkbox" checked> Do you want to receive our newsletter?</label>
-                </fieldset>
-                <input class="form__btn" type="submit" value="Submit">
-            </form>
-        </section>
-        <section class="container">
-            <p class="contact__table--paragraphy">opening hours</p>
-            <table class="contact__table">
-                <div class="contact__hours">
-                    <thead class="contact__table--head">
-                        <tr>
-                            <th class="contact__table--data">Day</th>
-                            <th class="contact__table--data">Time</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="contact__table--data">Friday</td>
-                            <td class="contact__table--data">10h~18h</td>
-                        </tr>
-                        <tr>
-                            <td class="contact__table--data">Saturday</td>
-                            <td class="contact__table--data">10h~18h</td>
-                        </tr>
-                        <tr>
-                            <td class="contact__table--data">Sunday</td>
-                            <td class="contact__table--data">10h~18h</td>
-                        </tr>
-                    </tbody>
-                </div>
-            </table>
-        </section>
-    </main>
-    <footer class="footer">
-        <img src="./assets/img/logo2.svg" alt="logo">
-        <p class="footer__copyright">&copy; Copyright Lorem Ipsum - 2021</p>
-    </footer>
-    <script src="./assets/js/toggle.js"></script>
-    <script src="https://kit.fontawesome.com/8db75cb122.js" crossorigin="anonymous"></script>
+          <label class="form__label" for="message">Message</label>
+          <textarea class="form__input" cols="30" rows="4" id="message" required></textarea>
+        </fieldset>
+        <fieldset class="fieldset__radio">
+          <legend class="form__legend">How do you prefer our contact?</legend>
+          <label class="form__label" for="radio-email">
+            <input type="radio" name="contact" value="email" id="radio-email" />
+            Email</label>
+          <label class="form__label" for="radio-phone">
+            <input type="radio" name="contact" value="phone" id="radio-phone" />
+            Phone</label>
+          <label class="form__label" for="radio-telegram">
+            <input type="radio" name="contact" value="telegram" id="radio-telegram" checked />
+            Telegram</label>
+        </fieldset>
+        <fieldset>
+          <legend class="form__legend">What time do you prefer?</legend>
+          <select class="form__select">
+            <option>Morning</option>
+            <option>Afternoon</option>
+            <option>Night</option>
+          </select>
+        </fieldset>
+        <fieldset class="form__checkbox">
+          <legend></legend>
+          <label class="form__label" for="checkbox"><input type="checkbox" id="checkbox" checked /> Do you want to
+            receive our newsletter?</label>
+        </fieldset>
+        <input class="form__btn" type="submit" value="Submit" />
+      </form>
+    </section>
+    <section class="container">
+      <p class="contact__table--paragraph">opening hours</p>
+      <table class="contact__table">
+        <caption></caption>
+        <div class="contact__hours">
+          <thead class="contact__table--head">
+            <tr>
+              <th scope="col" class="contact__table--data">Day</th>
+              <th scope="col" class="contact__table--data">Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="contact__table--data">Friday</td>
+              <td class="contact__table--data">10h~18h</td>
+            </tr>
+            <tr>
+              <td class="contact__table--data">Saturday</td>
+              <td class="contact__table--data">10h~18h</td>
+            </tr>
+            <tr>
+              <td class="contact__table--data">Sunday</td>
+              <td class="contact__table--data">10h~18h</td>
+            </tr>
+          </tbody>
+        </div>
+      </table>
+    </section>
+  </main>
+  <footer class="footer">
+    <img src="./assets/img/logo2.svg" alt="logo" />
+    <p class="footer__copyright">&copy; Copyright Lorem Ipsum - 2021</p>
+  </footer>
+  <script src="./assets/js/toggle.js"></script>
+  <script src="https://kit.fontawesome.com/8db75cb122.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

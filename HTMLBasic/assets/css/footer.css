@@ -1,10 +1,10 @@
 .footer {
-    text-align: center;
-	background: var(--color-light);
+  text-align: center;
+  background: var(--color-light);
 }
 
 .footer__copyright {
-	color: var(--color-black);
-	font-size: 1rem;
-	padding-bottom: 1rem;
+  color: var(--color-black);
+  font-size: 1rem;
+  padding-bottom: 1rem;
 }

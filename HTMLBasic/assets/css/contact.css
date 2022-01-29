@@ -1,102 +1,103 @@
 .container {
-    width: 90vw;
-    margin: 1rem auto;
+  width: 90vw;
+  margin: 1rem auto;
 }
 
 .fieldset__input {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .form__label {
-    font-size: 2rem;
-    margin-top: 2rem;
-    cursor: pointer;
-    display: block;
+  font-size: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  display: block;
 }
 
 .form__input {
-    font-size: 2rem;
-    border-radius: .5rem;
-    padding: .5rem;
-    background: transparent;
-    color: var(--color-light);
-    border: 2px solid var(--color-2);
-    width: 100%;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background: transparent;
+  color: var(--color-light);
+  border: 2px solid var(--color-2);
+  width: 100%;
 }
 .fieldset__radio {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
-.fieldset__radio input , .fieldset__radio label {
-    cursor: pointer;
+.fieldset__radio input,
+.fieldset__radio label {
+  cursor: pointer;
 }
 .form__legend {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
-.fieldset__radio .form__label{
-    margin-right: 1rem;
+.fieldset__radio .form__label {
+  margin-right: 1rem;
 }
 
 .form__select {
-    font-size: 2em;
-    background-color: transparent;
-    color: var(--color-light);
-    border-radius: .5rem;
-    cursor: pointer;
+  font-size: 2em;
+  background-color: transparent;
+  color: var(--color-light);
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 .form__checkbox {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .form__btn {
-    text-align: center;
-    display: block;
-    background-color: var(--color-4);
-    font-size: 1rem;
-    padding: 1rem;
-    width: 80%;
-    border: none;
-    border-radius: .5rem;
-    cursor: pointer;
+  text-align: center;
+  display: block;
+  background-color: var(--color-4);
+  font-size: 1rem;
+  padding: 1rem;
+  width: 80%;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
-.contact__table--paragraphy {
-    text-transform: capitalize;
-    font-size: 2rem;
+.contact__table--paragraph {
+  text-transform: capitalize;
+  font-size: 2rem;
 }
 
-.contact__table{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.contact__table {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .contact__table--head {
-    background: var(--color-light);
-    color: var(--color-black);
-    font-weight: bold;
+  background: var(--color-light);
+  color: var(--color-black);
+  font-weight: bold;
 }
 
 .contact__table--data {
-    border: 1px solid var(--color-light);
-    padding: .5rem 1rem;
-    font-size: 1.5rem;
+  border: 1px solid var(--color-light);
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
 }
 
-@media screen and (min-width: 800px){
-    .form__input {
-        width: 75%;
-    }
-    .form__label {
-        display: inline;
-    }
-    .form__btn{
-        transition: background .5s linear;
-        width: 40%;
-    }
-    .form__btn:hover {
-        background: var(--color-2);
-    }
+@media screen and (min-width: 800px) {
+  .form__input {
+    width: 75%;
+  }
+  .form__label {
+    display: inline;
+  }
+  .form__btn {
+    transition: background 0.5s linear;
+    width: 40%;
+  }
+  .form__btn:hover {
+    background: var(--color-2);
+  }
 }
